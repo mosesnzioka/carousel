@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slideshow Carousel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider-wrapper">
+        <div class="card-list">
+          <div class="card-item">
+            <img src="assets/brigit.jpg" alt="Brigit" />
+            <h3 class="person-name">Brigit Gitonga</h3>
+            <p class="person-description">
+              This is Brigit Gitonga from Muranga University of Technology,
+              taking a Bachelor of Science in Information Technology.
+            </p>
+          </div>
+
+          <div class="card-item">
+            <img src="assets/carolyn.jpg" alt="Carolyn" />
+            <h3 class="person-name">Carolyn Mueni</h3>
+            <p class="person-description">
+              This is Carolyn Mueni from Muranga University of Technology,
+              taking a Bachelor of Science in Information Technology.
+            </p>
+          </div>
+
+          <div class="card-item">
+            <img src="assets/mbithe.jpg" alt="Mbithe" />
+            <h3 class="person-name">Mbithe Muturi</h3>
+            <p class="person-description">
+              This is Mbithe Muturi from Muranga University of Technology,
+              taking a Bachelor of Science in Information Technology.
+            </p>
+          </div>
+
+          <div class="card-item">
+            <img src="assets/ruth.jpg" alt="Ruth" />
+            <h3 class="person-name">Ruth Ivongo</h3>
+            <p class="person-description">
+              This is Ruth Ivongo from Muranga University of Technology, taking
+              a Bachelor of Science in Information Technology.
+            </p>
+          </div>
+        </div>
+
+        <button class="prev-item" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next-item" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+    </div>
+
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
